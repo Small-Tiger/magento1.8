@@ -1,0 +1,9 @@
+a:5:{i:0;s:217:"Error in file: "D:\php_Program File\phpStudy\WWW\magento1.8\app\code\core\Mage\Api2\sql\api2_setup\install-1.0.0.0.php" - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'magento.api2_acl_role' doesn't exist";i:1;s:1104:"#0 D:\php_Program File\phpStudy\WWW\magento1.8\app\code\core\Mage\Core\Model\Resource\Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 D:\php_Program File\phpStudy\WWW\magento1.8\app\code\core\Mage\Core\Model\Resource\Setup.php(421): Mage_Core_Model_Resource_Setup->_modifyResourceDb('install', '', '1.0.0.0')
+#2 D:\php_Program File\phpStudy\WWW\magento1.8\app\code\core\Mage\Core\Model\Resource\Setup.php(327): Mage_Core_Model_Resource_Setup->_installResourceDb('1.0.0.0')
+#3 D:\php_Program File\phpStudy\WWW\magento1.8\app\code\core\Mage\Core\Model\Resource\Setup.php(235): Mage_Core_Model_Resource_Setup->applyUpdates()
+#4 D:\php_Program File\phpStudy\WWW\magento1.8\app\code\core\Mage\Core\Model\App.php(417): Mage_Core_Model_Resource_Setup::applyAllUpdates()
+#5 D:\php_Program File\phpStudy\WWW\magento1.8\app\code\core\Mage\Core\Model\App.php(343): Mage_Core_Model_App->_initModules()
+#6 D:\php_Program File\phpStudy\WWW\magento1.8\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#7 D:\php_Program File\phpStudy\WWW\magento1.8\index.php(87): Mage::run('', 'store')
+#8 {main}";s:3:"url";s:12:"/magento1.8/";s:11:"script_name";s:21:"/magento1.8/index.php";s:4:"skin";s:7:"default";}

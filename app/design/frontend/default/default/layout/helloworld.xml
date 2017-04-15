@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <helloworld_index_index>
+        <reference name="root">
+            <block type="page/html" name="root"  template="helloworld/simple_page.phtml"/>
+            <block type="page/html" name="root2" template="helloworld/simple_page2.phtml"/>
+        </reference>
+    </helloworld_index_index>
+    <alipay_index_index>
+        <reference name="content">
+            <block type="alipay/alipay" name="alipay" template="alipay/alipay.phtml" />
+        </reference>
+    </alipay_index_index>
+</layout>

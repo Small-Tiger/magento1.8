@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Wangxp_Helloworld>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Wangxp_Helloworld>
+    </modules>
+</config>

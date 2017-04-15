@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<config>    
+    <modules>
+        <Wangxp_Helloworld>
+            <version>0.1.0</version>
+        </Wangxp_Helloworld>
+    </modules>
+    <frontend>
+        <routers>
+            <helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Wangxp_Helloworld</module>
+                    <frontName>helloworld</frontName>
+                </args>
+            </helloworld>
+        </routers>
+        <layout>
+            <updates>
+                <helloworld module="Wangxp_Helloworld">
+                    <file>helloworld.xml</file>
+                </helloworld>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <models>
+            <helloworld>
+                <class>Wangxp_Helloworld_Model</class>
+                <resourceModel>helloworld_resource</resourceModel>
+            </helloworld>
+            <helloworld_resource>
+                <class>Wangxp_Helloworld_Model_Resource</class>
+                 <entities>
+                    <wxpblogposts>
+                        <table>wxp_blog_posts</table>
+                    </wxpblogposts>
+                </entities>
+            </helloworld_resource>
+    </models>
+    </global>
+</config>
